@@ -2,10 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.PlayerCodeFG PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PartyAI.cs">
     <Files>
-      <File FileName="PartyAI.cs" Line="38" Column="14" />
-      <File FileName="Program.cs" Line="24" Column="1" />
-      <File FileName="FinalGambitInterface.cs" Line="1183" Column="1" />
-      <File FileName="FileExchangePath.cs" Line="8" Column="41" />
+      <File FileName="PartyAI.cs" Line="77" Column="60" />
+      <File FileName="Program.cs" />
+      <File FileName="FinalGambitInterface.cs" />
+      <File FileName="FileExchangePath.cs" />
+      <File FileName="Notes.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

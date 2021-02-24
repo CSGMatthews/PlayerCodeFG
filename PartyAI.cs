@@ -19,6 +19,7 @@ namespace Final_Gambit_Player_Code
 
             #region SampleCode
 
+            PartyCharacter target = null;
 
             if (FinalGambit.BattleState.characterWithInitiative.classID == FinalGambit.CharacterClassID.Fighter)
             {
@@ -33,6 +34,50 @@ namespace Final_Gambit_Player_Code
 
                 Console.WriteLine("this is a cleric");
 
+                int hurtAllies = 0;
+
+                //Battle tactic 1
+                foreach (PartyCharacter pc in FinalGambit.BattleState.partyCharacters)//detect all allies
+                {
+                    if (pc.hp > 0) {
+                        if (pc.hp < pc.maxHP * 0.75f)
+                            hurtAllies++;
+
+                        if (hurtAllies >= 2)
+                        {
+                            FinalGambit.PerformBattleAction(FinalGambit.BattleActionID.Bubble, pc);
+                            return;
+                        }
+                    }
+                }
+
+                //Battle tactic 2
+                foreach (PartyCharacter pc in FinalGambit.BattleState.partyCharacters)// detects all allies
+                {
+                    if (pc.hp > 0)
+                    {
+                        if(pc.hp < pc.maxHP * 0.25f)
+                        {
+                            if(target == null)
+                            {
+                                switch (pc.classID)
+                                {
+                                    case FinalGambit.CharacterClassID.Cleric:
+                                        target = pc;
+                                        break;
+                                    case FinalGambit.CharacterClassID.Monk:
+                                        target = pc;
+                                        break;
+                                    case FinalGambit.CharacterClassID.Wizard:
+                                        target = pc;
+                                        break;
+
+                                }
+                            }
+                            FinalGambit.PerformBattleAction
+                        }
+                    }
+                }
             }
             else if (FinalGambit.BattleState.characterWithInitiative.classID == FinalGambit.CharacterClassID.Wizard)
             {

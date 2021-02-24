@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fernandorestituto/Desktop/PlayerCodeFG/PlayerCodeFG.csproj": {}
+    "/Users/chris-matthews/Library/Mobile Documents/com~apple~CloudDocs/GameDev/GitHub/PlayerCodeFG/PlayerCodeFG.csproj": {}
   },
   "projects": {
-    "/Users/fernandorestituto/Desktop/PlayerCodeFG/PlayerCodeFG.csproj": {
+    "/Users/chris-matthews/Library/Mobile Documents/com~apple~CloudDocs/GameDev/GitHub/PlayerCodeFG/PlayerCodeFG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fernandorestituto/Desktop/PlayerCodeFG/PlayerCodeFG.csproj",
+        "projectUniqueName": "/Users/chris-matthews/Library/Mobile Documents/com~apple~CloudDocs/GameDev/GitHub/PlayerCodeFG/PlayerCodeFG.csproj",
         "projectName": "PlayerCodeFG",
-        "projectPath": "/Users/fernandorestituto/Desktop/PlayerCodeFG/PlayerCodeFG.csproj",
-        "packagesPath": "/Users/fernandorestituto/.nuget/packages/",
-        "outputPath": "/Users/fernandorestituto/Desktop/PlayerCodeFG/obj/",
+        "projectPath": "/Users/chris-matthews/Library/Mobile Documents/com~apple~CloudDocs/GameDev/GitHub/PlayerCodeFG/PlayerCodeFG.csproj",
+        "packagesPath": "/Users/chris-matthews/.nuget/packages/",
+        "outputPath": "/Users/chris-matthews/Library/Mobile Documents/com~apple~CloudDocs/GameDev/GitHub/PlayerCodeFG/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/fernandorestituto/.config/NuGet/NuGet.Config"
+          "/Users/chris-matthews/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
